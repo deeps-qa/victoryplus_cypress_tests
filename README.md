@@ -17,7 +17,6 @@ The test suite includes the following:
   - Verifies redirection to a detail page
   - Validates that the video starts playing
 
-
 ---
 
 ## 🧪 How to Run the Tests
