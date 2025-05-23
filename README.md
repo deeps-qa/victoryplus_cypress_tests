@@ -17,8 +17,16 @@ The test suite includes the following:
   - Verifies redirection to a detail page
   - Validates that the video starts playing
 
----
 
+## 📦 Reusable Functions
+
+To improve code modularity and avoid repetition, I’ve added custom reusable commands in the `cypress/support/commands.js` file:
+
+- `cy.loginVictoryPlus(email, password)` – Automates the login process
+- `cy.dismissPopupIfExists()` – Detects and dismisses post-login popups (like "Later")
+- `cy.scrollUntilHeadingVisible(headingText)` – Scrolls the page until a specific section heading (like "Recently Added") becomes visible
+These commands help keep the test cases clean, readable, and maintainable.
+---
 ## 🧪 How to Run the Tests
 
 
@@ -39,4 +47,5 @@ npx cypress run
 4. Open Cypress Test Runner (Optional)
 bash
 npx cypress open
+
 
