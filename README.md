@@ -21,20 +21,22 @@ The test suite includes the following:
 
 ## 🧪 How to Run the Tests
 
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/YOUR-USERNAME/victoryplus-cypress-tests.git
 cd victoryplus-cypress-tests
 
-### 2. Install Dependencies
+2. Install Dependencies
 ```bash
 npm install
 # (Ensure Node.js is installed before running 'npm install')
 
-### 3. Run All Tests (Headless + Video Recording)
-bash
+3. Run All Tests (Headless + Video Recording)
+'''bash
 npx cypress run
-### 4. Open Cypress Test Runner (Optional)
+
+4. Open Cypress Test Runner (Optional)
 bash
 npx cypress open
 
